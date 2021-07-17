@@ -10,9 +10,11 @@ RUN apt-get install -y tzdata && \
     apt-get install -y \
     curl \
     wget \
+    unzip \
     python3 \
     gcc \ 
     python3-pip \
+    python3-libtorrent \
     gnupg \
     dumb-init \
     htop \
